@@ -6,6 +6,9 @@
   "bin": {
     "common-tests-zip": "index.js"
   },
+  "bugs": {
+    "url": "https://github.com/pdehaan/common-tests-zip/issues"
+  },
   "dependencies": {
     "argv": "0.0.2",
     "cheerio": "0.19.0",
@@ -14,7 +17,12 @@
   "devDependencies": {
     "standard": "5.1.0"
   },
+  "homepage": "https://github.com/pdehaan/common-tests-zip#readme",
   "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/common-tests-zip.git"
+  },
   "scripts": {
     "test": "standard"
   }

@@ -1,5 +1,9 @@
 # common-tests-zip
 
+## Why? BUT WHY?
+
+We need to download `*.common.tests.zip` files for specific channels and OSes. This seemed like a ~~good~~ solution.
+
 ## Installation:
 
 ```sh
@@ -51,7 +55,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/firefox-43.
 The following example returns a JSON object to the Linux Firefox Release channel *.common.tests.zip file:
 
 ```sh
-common-tests-zip --channel=release --os=linux --verify
+$ common-tests-zip --channel=release --os=linux --verify
 ```
 
 **Output:**
